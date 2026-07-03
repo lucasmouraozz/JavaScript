@@ -6,4 +6,3 @@ nome = 10
 
 const curso = 'JavaScript'
 
-console.log(curso);
