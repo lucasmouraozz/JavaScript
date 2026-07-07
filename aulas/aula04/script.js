@@ -7,3 +7,5 @@ n1*= 5
 n2-= 5
 console.log(n1)
 
+console.log('lucas')
+
