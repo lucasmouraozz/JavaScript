@@ -11,5 +11,6 @@ const soma = (...valores) => {
   return somar(valores);
 }
 sm1 = [10,20,30]
-console.log(soma(...sm1))
-console.log(soma(50,50))
+//console.log(soma(...sm1))
+//console.log(soma(50,50))
+
