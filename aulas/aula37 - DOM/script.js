@@ -12,3 +12,7 @@ cursos.forEach((el) => {
     event.stopPropagation()
   })
 })
+
+fpor (let i = 0; i <= 10; i++) {
+  console.log('João Lucas')
+}

@@ -1,14 +1,13 @@
 const caixaUm = window.document.querySelector('#caixa1');
-const btn_c1 = window.document.querySelector('#c1');
-const cursos = [...window.document.querySelectorAll('.curso')]
 
-caixaUm.addEventListener('click', (event) => {
-  console.log('clicou!')
-  console.log(event)
+const cursos = ['HTML', 'JavaScript', 'PHP', 'React', 'MySQL', 'ReactNative'];
+cursos.map((el, i) => {
+  const novoElemento = window.document.createElement('div');
+  novoElemento.setAttribute('id', 'c' + i);
+  novoElemento.setAttribute('class', 'curso c1');
+  novoElemento.innerHTML = el
+  caixaUm.appendChild(novoElemento);
 })
 
-cursos.forEach((el) => {
-  el.addEventListener('click', (event) => {
-    event.stopPropagation()
-  })
-})
+
+
